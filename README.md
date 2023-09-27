@@ -1,28 +1,3 @@
 # Decentralized Voting Application
 
-This is a demo application to implement voting in solidity smart contract using ReactJS. 
-
-[Youtube Tutorial](https://youtu.be/eCn6mHTpuM0)
-
-## Installation
-
-After you cloned the repository, you want to install the packages using
-
-```shell
-npm install
-```
-
-You first need to compile the contract and upload it to the blockchain network. Run the following commands to compile and upload the contract.
-
-```shell
-npx hardhat compile
-npx hardhat run --network volta scripts/deploy.js
-```
-
-Once the contract is uploaded to the blockchain, copy the contract address and copy it in the .env file. You can also use another blockchain by writing the blockchain's endpoint in hardhat-config.
-
-Once you have pasted your private key and contract address in the .env file, simply run command
-
-```shell
-npm start
-```
+In this personal project, I've demonstrated how to construct a decentralized voting application from scratch. First, I created a Solidity smart contract to manage the voting process securely on the Ethereum blockchain. Then, I set up the Ethereum network for deployment. After that, I designed and implemented the front-end user interface using React JS, ensuring an intuitive and engaging voting experience for users. The end result is a fully operational decentralized voting application that leverages the Ethereum blockchain's security features, providing a transparent and tamper-resistant platform for conducting elections and polls.
